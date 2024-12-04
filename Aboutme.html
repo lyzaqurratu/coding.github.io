@@ -11,7 +11,7 @@ body {
   font-family: Bell MT;
   padding: 10px;
   background: #ffffff;
-  background-image: url("aboutbck.gif");
+  background-image: url("aboutback.gif");
   text-align: center;
   color: rgb(102, 92, 83);
 }
@@ -24,7 +24,8 @@ body {
 /* Header/Blog Title */
 .header {
   padding: 30px;
-  height: 50vh;
+  height: 52vh;
+  width: 96vw;
   text-align: center;
   background: rgb(250, 243, 202);
   background-image: url("aboutpic.jpg");
@@ -34,6 +35,16 @@ body {
   font-size: 50px;
   font-family: myFont;
   color: rgb(71, 53, 37);
+}
+
+h2 {
+font-family: myFont;
+src:url('Home.ttf');
+}
+
+/*change paragraph color*/
+li.ex {
+  color: rgb(34, 115, 168);
 }
 
 /* Style the top navigation bar */
@@ -84,13 +95,23 @@ body {
   
 }
 
+/*create container for pictures*/
+.card2 {
+  background-color: #738560;
+  padding: 10px;  
+  margin-bottom: 70px;
+  margin-left: 40px ;
+  margin-right: 40px;
+  
+}
+
 /* Add a card effect for articles */
 .card {
   background-color: rgb(162, 177, 143);
   padding: 20px;
   margin-top: 60px;
-  
   color: rgb(255, 255, 255);
+  font-size: 1.1em;
   text-align: justify;
 
 }
@@ -124,13 +145,12 @@ body {
   clear: both;
 }
 
+/*create table*/
 table {
   border: 1px solid;
   width: 100%;
   align-items: center;
 }
-
-
 
 td, th {
   border: 1px solid #2a3f2d;
@@ -142,6 +162,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #cce6ce;
 }
+
 
 /* Footer */
 footer{
@@ -227,18 +248,7 @@ footer{
     }
 }
 
-/*create container for pictures*/
-div.scroll-container {
-  background-color: #738560;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;  
-  margin-bottom: 70px;
-}
 
-div.scroll-container img {
-  padding: 10px;
-}
 
 </style>
 </head>
@@ -268,10 +278,10 @@ div.scroll-container img {
           <li>Hobbies? I like watching movies, decorating, sleeping and gardening.</li>
           <li>I'm the eldest daugther of five siblings.</li>
           <li>My name is a combination of LY from my father's name and ZA my mother's name.</li>
-          <li>Father: Sazaly bin Ab Rahman</li>
-          <li>Mother: Zawiyah binti Abdul Aziz</li>
-          <li>Fav color: Blue</li>
-          <li>Fav Animals: seahorses & cats</li>
+          <li><sub>Father</sub> : Sazaly bin Ab Rahman</li>
+          <li><sub>Mother</sub> : Zawiyah binti Abdul Aziz</li>
+          <li class="ex">Fav color : <sup> Blue </sup></li>
+          <li>Fav Animals : <sup>seahorses & cats</sup></li>
         </ol> 
       </div>
     </div>
@@ -279,7 +289,7 @@ div.scroll-container img {
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card2">
+    <div class="card1">
 <table>
   <tr>
     <th>Recent Watch</th>
@@ -287,21 +297,21 @@ div.scroll-container img {
   </tr>
 
   <tr>
-    <td>Spellbound</td>
+    <td><a href="https://www.imdb.com/title/tt7215232/">Spellbound</a></td>
     <td>★★★</td>
   </tr>
   <tr>
-    <td>The wild robot</td>
+    <td><a href="https://www.imdb.com/title/tt29623480/?ref_=nv_sr_srsg_2_tt_6_nm_0_in_0_q_the%2520wild%2520robot">The wild robot</a></td>
     <td>★★★★</td>
   </tr>
   <tr>
-    <td>My Boo</td>
+    <td><a href="https://www.imdb.com/title/tt32380407/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_my%2520boo">My Boo</a></td>
     <td>★★★</td>
   <tr>
-    <td>Bad Boys:Ride or Die</td>
+    <td><a href="https://www.imdb.com/title/tt4919268/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_bad%2520boys">Bad Boys:Ride or Die</a></td>
     <td>★★★</td>
   </tr>
-    <td>Lookism</td>
+    <td><a href="https://www.imdb.com/title/tt22297722/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_lookism">Lookism</a></td>
     <td>★★★★★</td>
   </tr>
 </table>
@@ -340,10 +350,32 @@ div.scroll-container img {
     </div>
   </div>
 
-<h2 style="text-align:center"> My Family</h2>
-<div class="scroll-container">
-  <img src="fampic.jpg">
+<div class=".h2">
+ <h2> My Family ツ</h2>
 </div>
+<p><i>this is my family🏡</i></p>
+
+<div class="row">
+    <div class="card2">
+      <a target="_blank" href="imgparents.jpg">
+        <img src="imgparents.jpg" alt="Parents" style="width:200px">
+      </a>
+
+      <a target="_blank" href="imgainani.jpg">
+        <img src="imgainani.jpg" alt="Ainani" style="width:200px">
+      </a>
+
+      <a target="_blank" href="imgsisters.jpg">
+        <img src="imgsisters.jpg" alt="Sisters" style="width:353px">
+      </a>
+
+      <a target="_blank" href="imgfamily.jpg">
+        <img src="imgfamily.jpg" alt="Family" style="width:353px">
+      </a>
+    </div>
+  </div>
+</div>
+
 
 
       <center><img src="aboutgif.gif" width="300" height="300"></center>

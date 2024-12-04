@@ -3,219 +3,8 @@
 <html lang="en">
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-<style>
-* {
-  box-sizing: border-box;
-}
+<link rel="stylesheet" href="Interface.css">
 
-body {
-  font-family: Bell MT;
-  padding: 10px;
-  background: #ffffff;
-  background-image: url("edu.jpg");
-}
-
-@font-face{
-  font-family: myFont;
-  src:url('Home.ttf');
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: rgb(250, 243, 202);
-  background-image: url("hdrhome.jpg");
-  background-size: cover;
-  text-align: center;
-  height: 48vh;
-  width: 96vw;
-  margin: 0 auto;
-}
-
-.header h1 {
-  font-size: 70px;
-  font-family: myFont;
-  color: rgb(71, 53, 37);
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #2a3350;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #dadada;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 65%;
-  
-  padding-left: 20px;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 35%;
-  
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #ececec;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: rgb(224, 221, 207);
-  padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-
-
-/*Footer*/
-footer{
-    background-color: rgb(224, 221, 207);
-}
-.footerContainer{
-    width: 100%;
-    margin-top: 40px;
-    padding: 70px 30px 20px ;
-}
-.socialIcons{
-    display: flex;
-    justify-content: center;
-}
-.socialIcons a{
-    text-decoration: none;
-    padding:  10px;
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
-    border-radius: 50%;
-}
-.socialIcons a i{
-    font-size: 2em;
-    color: rgb(5, 30, 46);
-    opacity: 0,9;
-}
-/* Hover affect on social media icon */
-.socialIcons a:hover{
-    background-color: rgb(133, 131, 121);
-    transition: 0.5s;
-}
-.socialIcons a:hover i{
-    color: white;
-    transition: 0.5s;
-}
-.footerNav{
-    margin: 30px 0;
-}
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-.footerNav ul li a{
-    color:rgb(5, 30, 46);
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-
-}
-.footerNav ul li a:hover{
-    opacity: 1;
-}
-.footerBottom{
-    background-color: rgb(190, 187, 172);
-    padding: 20px;
-    text-align: center;
-}
-.footerBottom p{
-    color: rgb(14, 57, 85);
-}
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-}
-@media (max-width: 700px){
-    .footerNav ul{
-        flex-direction: column;
-    } 
-    .footerNav ul li{
-        width:100%;
-        text-align: center;
-        margin: 10px;
-    }
-    .socialIcons a{
-        padding: 8px;
-        margin: 4px;
-    }
-}
-
-/*notes*/
-.div {
-  margin-bottom: 15px;
-  padding: 4px 12px;
-}
-
-
-.info {
-  background-color: #afc9e2;
-  border-left: 6px solid #34559c;
-}
-
-
-</style>
 </head>
 <body>
 
@@ -230,7 +19,6 @@ footer{
   <a href="education.html"><b>Education</b></a>
   <a href="experience.html"><b>Experiences</b></a>
   <a href="Gallery.html"><b>Gallery</b></a>
-  <a href="#" style="float:right">Link</a>
 </div>
 
 <p></p>
@@ -258,17 +46,18 @@ footer{
     </div>
 
     <div class="card">
-      <h2>let's watch a movie!</h2>
-      <h3>relax and enjoy this short animation</h3>
+      <h2>let's watch a movie! 🍿</h2>
+      <h3>relax and enjoy this short animation . ݁₊ ⊹ . 📽</h3>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/au30Dogtj-I?si=ic_PAQnlsoASmlkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p>Under the Ticket</p>
+      <p><b>Under the Ticket</b></p>
+      <p>↻ ◁ || ▷ ↺</p>
       <p>A ghost goes for a walk in the woods</p>
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
-      <center><h2>cHeCk tHe TiMeᶻ 𝗓 𐰁 .ᐟ</h2></center>
-      <img src="totoro.gif" width="180" height="160">
+      <center><h2>cHeCk tHe TiMe ᶻ 𝗓 𐰁 .ᐟ</h2></center>
+      <img src="totoro.gif" width="180" height="165">
       <canvas id="canvas" width="180" height="180" style="background-color:rgb(224, 221, 207);">
         Sorry, your browser does not support canvas.
         </canvas>
@@ -285,6 +74,21 @@ footer{
       Your browser does not support the audio element.
       </audio>
     </center>
+    </div>
+
+
+    <div class="card">
+      <img src="homeblinkie.gif" style="display: block; width: 20vw; margin: 1px auto 20px;">
+      <img src="imgmapsnoopy.jpg" usemap="#image-map" width="100%" height="100%">
+      <p> ༘⋆✿ ོ₊⁺☀︎₊⁺⋆.˚ ོ༘ೀ⋆｡˚.☘︎ ݁˖</p>
+
+      <map name="image-map">
+        <area target="_blank" alt="Flower shop" title="Flower shop" href="https://www.instagram.com/manjalara.co/?hl=en" coords="353,243,266,116" shape="rect">
+        <area target="_blank" alt="Baking Vlog" title="Baking Vlog" href="https://youtu.be/w6GnjgP3-0A?si=PMQIa0Vzn3C-4XM6" coords="98,117,233,255" shape="rect">
+        <area target="_blank" alt="Cafe Vlog" title="Cafe Vlog" href="https://youtu.be/yJc_hMAjjwc?si=LbOeriUpFZA1TwBS" coords="260,243,171,115" shape="rect">
+        <area target="_blank" alt="The Peanuts Movie" title="The Peanuts Movie" href="https://www.imdb.com/title/tt2452042/" coords="148,0,243,75" shape="rect">
+    </map>
+    </div>
       
     </div>
   </div>
@@ -399,6 +203,7 @@ footer{
 </script>
 </body>
 </html>
+
 
 
 
